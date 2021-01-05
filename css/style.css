@@ -1,0 +1,266 @@
+.clearfix{
+    clear: both;
+}
+
+body{    
+    font-family: sans-serif;    
+}
+
+.abertura{
+    color: rgb(174, 174, 174);    
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;   
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+
+header img{
+    float: left;    
+    margin-right: 25px;
+}
+
+nav{
+    padding-top: 57px;
+}
+
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
+
+.btnDestaque{
+    color: white;
+    border-radius: 4px;
+    border: 0px solid black;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(255, 77, 77);    
+}
+
+nav .btnDestaque{
+    margin-left: 35px;
+}
+
+.sec01{     
+    height: 740px;
+    margin-top: 15px;
+    color: rgb(240, 240, 240);  
+    background-repeat: no-repeat;  
+    background-position: center 0;   
+    background-image: url("../img/Home.png");
+}
+
+.sec01 .titulo{
+    color: white;
+    font-size: 48px;
+    padding: 150px 0px 0px 0px;
+}
+
+.sec01 p{
+    font-size: 24px;
+    padding: 0px 0px 50px 0px;
+}
+
+.sec01 a{
+    margin-left: 0px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.sec02{
+    height: 359px;
+    font-size: 24px;
+    text-align: center; 
+    color: rgb(34, 34, 34);
+    padding: 20px 0px 20px 0px;   
+}
+.sec02b{
+    height: 561px;
+    font-size: 24px;
+    text-align: center; 
+    color: rgb(34, 34, 34);
+    padding: 20px 0px 60px 0px;   
+}
+
+.sec03{
+    height: 664px;    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(239, 243, 246);
+    background-image: url("../img/Home2.png");
+}
+
+.sec03 p{
+    font-size: 48px;
+    padding-top: 50px;
+    color: rgb(102, 102, 102);
+}
+
+.sec03 a{
+    text-decoration: none;
+}
+
+.colunaFooter{
+    width: 31%;
+    float: left;
+    line-height: 30px;
+    padding-left: 15px;
+    color: rgb(136, 136, 136);
+}
+
+.colunaFooter a{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.logoFooter{
+    width: 100%;
+    
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    background-color: rgb(255, 77, 77);
+}
+
+.rodape a{
+    color: white;
+}
+
+.localizar{
+    height: 500px;
+    margin: 20px 0px 20px 0px;
+    background-color: beige;
+}
+
+.localizar .container{
+    padding: 0px;
+}
+
+.metade{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.localizar iframe{
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 2px outset gray;
+}
+
+.metade p{    
+    line-height: 35px;
+    margin: 5% 0px 0px 10%;    
+    color: rgb(136, 136, 136);
+}
+
+.formSection{
+    height: 500px;
+    margin-top: 15px;
+    background-color: rgb(215, 77, 77);
+}
+
+.formFundo{
+    text-align: center;
+    height: 80%;
+    width: 35%;
+    border-radius: 100px;
+    border: 50px solid rgb(195, 77, 77);
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+form{        
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.formFundo label{        
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;    
+}
+
+.formFundo input[type=text], [type=tel], textarea{        
+    border: none;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(225, 225, 225);
+}
+
+.formFundo input[type=submit]{
+    width: 300px;
+}
+
+.mensagem{    
+    line-height: normal;    
+}
+
+.mensagem label{    
+    text-align: center;
+}
+
+.mensagem textarea{    
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 400px;
+    max-width: 400px;
+    resize: none;
+}
+
+.modal{    
+    position: fixed;
+    background-color: aliceblue;
+    border-radius: 3px;
+    margin-top: 100px;   
+    margin-left: 300px;
+    padding: 0px 30px 30px 30px;    
+    min-width: 400px;
+    max-width: 400px;    
+    font-size: 24px;
+    color: rgb(144, 144, 144);    
+    display: none;
+}
+
+.modal label, input[type=text]{
+    vertical-align: middle;
+}
+
+.modal form input[type=text]{    
+    border: none;
+    width: 84%;
+    background-color: rgb(225, 225, 225);
+    border-bottom: 1px solid rgb(144, 144, 144);        
+}
+
+.modal form input[type=submit]{
+    width: 100%;
+}
+
+.modal p{
+    margin-bottom: 5px;
+    float: right;
+}
+
+.naoValido{
+    color: red;
+    display: none;
+}
+
+#closeModal{
+    cursor: pointer;
+}
